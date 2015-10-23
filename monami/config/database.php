@@ -64,12 +64,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	//'hostname' => '10.0.0.16', // on db1.monami.io
-	//'username' => 'monami', // on db1.monami.io
-	//'password' => 'rSejTMdDc_pk7ZcC', // on db1.monami.io
-	'hostname' => 'rds1-monami.c0hvdiaxzjau.us-east-1.rds.amazonaws.com', // on new AWS RDS
-	'username' => 'monamiuser', // on new AWS RDS
-	'password' => 'kdLzGfX4ZaLqsp6H', // on new AWS RDS
+	'hostname' => 'ENTER-YOUR-DB-SERVER-HERE',
+	'username' => 'ENTER-YOUR-DB-USER-HERE',
+	'password' => 'ENTER-YOUR-DB-PASS-HERE',
 	'database' => 'monami',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
