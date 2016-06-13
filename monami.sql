@@ -66,6 +66,8 @@ CREATE TABLE `tblMonitoringChecks` (
   `ID` int(11) NOT NULL,
   `HostID` int(11) NOT NULL,
   `CheckTypeID` int(11) DEFAULT NULL,
+  `CheckNote` varchar(100) NOT NULL,
+  `PauseCheck` int(1) DEFAULT NULL,
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
