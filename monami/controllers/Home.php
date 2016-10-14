@@ -29,7 +29,9 @@ class Home extends CI_Controller {
 	 }
 	 // Get number of hosts
 	 $data['host_count'] = $this->home_model->get_number_of_hosts($session_data['id']);
-	 
+	 // Get number of checks
+	 $data['check_count'] = $this->home_model->get_number_of_checks($session_data['id']);
+	   
 	 // Load the page
 	 $this->load->view('home_view', $data);
    }
