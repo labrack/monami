@@ -20,7 +20,7 @@
 			<tr>
 				<td><?=$alarm_stats?> Alarms</td>
 				<td><?=$host_count?> <?php if ($host_count == 1){ echo "Host"; } else { echo "Hosts"; } ?> Configured</td>
-				<td>No Checks Configured</td>
+				<td><?=$check_count?> <?php if ($check_count == 1){ echo "Check"; } else { echo "Checks"; } ?> Configured</td>
 			</tr>
 			<tr>
 				<td align="center"><a href="/profile"><img src="/img/icons/profile.png" alt="profile" /></a></td>
